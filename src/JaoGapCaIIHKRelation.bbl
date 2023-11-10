@@ -1,0 +1,75 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Baraffe} \& {Chabrier}(2018)}]{Baraffe2018}
+{Baraffe}, I., \& {Chabrier}, G. 2018, \aap, 619, A177,
+  \dodoi{10.1051/0004-6361/201834062}
+
+\bibitem[{Boudreaux(2022)}]{Boudreaux22}
+Boudreaux, T. 2022, tboudreaux/pytopsscrape: pyTOPSScrape v1.0, v1.0,  Zenodo,
+  \dodoi{10.5281/zenodo.7094198}
+
+\bibitem[{Chandra \& Varanasi(2015)}]{chandra2015python}
+Chandra, R.~V., \& Varanasi, B.~S. 2015, Python requests essentials (Packt
+  Publishing Ltd)
+
+\bibitem[{Dotter {et~al.}(2008)Dotter, Chaboyer, Jevremovi{\'c}, Kostov, Baron,
+  \& Ferguson}]{Dotter2008}
+Dotter, A., Chaboyer, B., Jevremovi{\'c}, D., {et~al.} 2008, The Astrophysical
+  Journal Supplement Series, 178, 89
+
+\bibitem[{{Feiden} {et~al.}(2021){Feiden}, {Skidmore}, \& {Jao}}]{Feiden2021}
+{Feiden}, G.~A., {Skidmore}, K., \& {Jao}, W.-C. 2021, \apj, 907, 53,
+  \dodoi{10.3847/1538-4357/abcc03}
+
+\bibitem[{{Irwin}(2012)}]{Irwin2012}
+{Irwin}, A.~W. 2012, {FreeEOS: Equation of State for stellar interiors
+  calculations}, Astrophysics Source Code Library, record ascl:1211.002.
+\newblock \doeprint{1211.002}
+
+\bibitem[{{Jao} \& {Feiden}(2020)}]{Jao2020}
+{Jao}, W.-C., \& {Feiden}, G.~A. 2020, \aj, 160, 102,
+  \dodoi{10.3847/1538-3881/aba192}
+
+\bibitem[{{Jao} \& {Feiden}(2021)}]{Jao2021}
+---. 2021, Research Notes of the American Astronomical Society, 5, 124,
+  \dodoi{10.3847/2515-5172/ac053a}
+
+\bibitem[{{Jao} {et~al.}(2018){Jao}, {Henry}, {Gies}, \& {Hambly}}]{Jao2018}
+{Jao}, W.-C., {Henry}, T.~J., {Gies}, D.~R., \& {Hambly}, N.~C. 2018, \apjl,
+  861, L11, \dodoi{10.3847/2041-8213/aacdf6}
+
+\bibitem[{{Jao} {et~al.}(2023){Jao}, {Henry}, {White}, {Nisak},
+  {Hubbard-James}, {Paredes}, \& {Lewis}}]{Jao2023}
+{Jao}, W.-C., {Henry}, T.~J., {White}, R.~J., {et~al.} 2023, \aj, 166, 63,
+  \dodoi{10.3847/1538-3881/ace2bb}
+
+\bibitem[{{Nutzman} \& {Charbonneau}(2008)}]{Nut08}
+{Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317,
+  \dodoi{10.1086/533420}
+
+\bibitem[{Richardson(2007)}]{richardson2007beautiful}
+Richardson, L. 2007, April
+
+\bibitem[{{Rodr{\'\i}guez-L{\'o}pez}(2019)}]{Rodriguez-Lopez2019}
+{Rodr{\'\i}guez-L{\'o}pez}, C. 2019, Frontiers in Astronomy and Space Sciences,
+  6, 76, \dodoi{10.3389/fspas.2019.00076}
+
+\bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
+  {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
+  {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
+  {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
+  {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
+  {Wheelock}}]{Skrutskie2006}
+{Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
+  1163, \dodoi{10.1086/498708}
+
+\bibitem[{{Spada} {et~al.}(2021){Spada}, {Demarque}, \& {Kupka}}]{Spada2021}
+{Spada}, F., {Demarque}, P., \& {Kupka}, F. 2021, \mnras, 504, 3128,
+  \dodoi{10.1093/mnras/stab1106}
+
+\end{thebibliography}
