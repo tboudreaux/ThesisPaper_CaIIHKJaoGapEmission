@@ -52,6 +52,13 @@ Dotter, A., Chaboyer, B., Jevremovi{\'c}, D., {et~al.} 2008, The Astrophysical
 {Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317,
   \dodoi{10.1086/533420}
 
+\bibitem[{{Perdelwitz} {et~al.}(2021){Perdelwitz}, {Mittag}, {Tal-Or},
+  {Schmitt}, {Caballero}, {Jeffers}, {Reiners}, {Schweitzer}, {Trifonov},
+  {Ribas}, {Quirrenbach}, {Amado}, {Seifert}, {Cifuentes}, {Cortes-Contreras},
+  {Montes}, {Revilla}, \& {Skrzypinski}}]{Perdelwitz2021}
+{Perdelwitz}, V., {Mittag}, M., {Tal-Or}, L., {et~al.} 2021, VizieR Online Data
+  Catalog, J/A+A/652/A116, \dodoi{10.26093/cds/vizier.36520116}
+
 \bibitem[{Richardson(2007)}]{richardson2007beautiful}
 Richardson, L. 2007, April
 
@@ -67,9 +74,5 @@ Richardson, L. 2007, April
   {Wheelock}}]{Skrutskie2006}
 {Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
   1163, \dodoi{10.1086/498708}
-
-\bibitem[{{Spada} {et~al.}(2021){Spada}, {Demarque}, \& {Kupka}}]{Spada2021}
-{Spada}, F., {Demarque}, P., \& {Kupka}, F. 2021, \mnras, 504, 3128,
-  \dodoi{10.1093/mnras/stab1106}
 
 \end{thebibliography}

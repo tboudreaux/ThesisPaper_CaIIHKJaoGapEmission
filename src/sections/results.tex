@@ -1,0 +1,45 @@
+\section{Correlation}\label{sec:results}
+Using Ca II H\&K emission data from \citet{Boudreaux2021} and
+\citet{Perdelwitz2021} (quantified using the $R_{HK}$ metric) we investigate
+the correlation between the Jao Gap magnitude and stellar magnetic activity. We
+are more statistically limited here than past authors have been due to
+therequirment for high resolution spectoscopic data when measuring Calcium
+emission; however, this is balanced by the aparent stronger correlation between
+Cacium emission and the Jao gap when compared to H$\alpha$ emission. 
+
+The merged dataset is presented in Figure \ref{fig:mergedData}. There is a
+visual discontinuity around the Jao Gap mangitude; however, this manifests as
+an increase in the spread of the emission measurments rather than a change in
+the mean value. In order to quantify the signifigance of this discontinuity we
+measure the false alarm probaility of the change in standard deviation.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/Combined.pdf}
+  \caption{Merged Dataset from \citet{Boudreaux2021, Perdelwitz2021}. Note the
+  increase in the spread of $R'_{HK}$ around the Jao Gap Magnitude.}
+  \label{fig:mergedData}
+\end{figure}
+
+First bin the merged dataset into bins with a width of 0.5 mag. In each bin we
+measure the standard deviation about the mean of the data. The results of this
+are shown in Figure \ref{fig:deviation}. In order to measure the false alarm
+probabililty of this discontinuity we first resample the merged calcium
+emission data based on the associated uncertanties for each datapoint as
+presented in their respective publications. Then, for each of these ``resample
+trials'' we measure the probility that a change in the standard deviation of
+the size seen would happen purley due to noise. Results of this test are showin in Figure \ref{fig:dist}. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/Deviation.pdf}
+  \caption{Standard deviation of Calcium emission data within each bin. Note the discontinuity near the Jao Gap Magnitude.}
+  \label{fig:deviation}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/fpDist.pdf}
+  \caption{Probability distribution of the false alarm probability for the discontinuity seen in Figure \ref{fig:deviation}. The mean of this distribution is $0.341\%\pm^{0.08}_{0.08}$.}
+  \label{fig:dist}
+\end{figure}
