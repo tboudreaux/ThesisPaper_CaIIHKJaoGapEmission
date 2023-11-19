@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  10 NOV 2023 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  19 NOV 2023 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,90 +580,91 @@ ine 20.
 Package natbib Warning: Citation `Boudreaux2021' on page 2 undefined on input l
 ine 20.
 
-<figures/Deviation.pdf, id=70, 622.44894pt x 437.70929pt>
+<figures/Deviation.pdf, id=70, 722.7pt x 505.89pt>
 File: figures/Deviation.pdf Graphic file (type pdf)
 <use figures/Deviation.pdf>
-Package pdftex.def Info: figures/Deviation.pdf  used on input line 35.
-(pdftex.def)             Requested size: 230.90128pt x 162.37067pt.
+Package pdftex.def Info: figures/Deviation.pdf  used on input line 36.
+(pdftex.def)             Requested size: 230.90128pt x 161.62564pt.
 <figures/fpDist.pdf, id=71, 608.56743pt x 603.58702pt>
 File: figures/fpDist.pdf Graphic file (type pdf)
 <use figures/fpDist.pdf>
-Package pdftex.def Info: figures/fpDist.pdf  used on input line 42.
+Package pdftex.def Info: figures/fpDist.pdf  used on input line 44.
 (pdftex.def)             Requested size: 230.90128pt x 229.00626pt.
-) [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
-) has been already used, duplicate ignored
+) (./sections/modeling.tex [2pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \acknowledgments
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.2}) has been already used, duplicate ignored
+l.11 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.75 \acknowledgments
-                      <./figures/Combined.pdf> <./figures/Deviation.pdf
+l.11 
+      <./figures/Combined.pdf> <./figures/Deviation.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Deviation.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 75.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 11.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 75.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 11.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-(./JaoGapCaIIHKRelation.bbl) [3pdfTeX warning (ext4): destination with the same
+) (./sections/conclusion.tex [3pdfTeX warning (ext4): destination with the same
  identifier (name{figure.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 
-       <./figures/fpDist.pdf>]
+l.13 
+      <./figures/fpDist.pdf>]) (./JaoGapCaIIHKRelation.bbl) [4]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 (./JaoGapCaIIHKRelation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 9343 strings out of 492641
- 127850 string characters out of 6131787
- 280405 words of memory out of 5000000
- 13082 multiletter control sequences out of 15000+600000
+ 9365 strings out of 492641
+ 128169 string characters out of 6131787
+ 284569 words of memory out of 5000000
+ 13093 multiletter control sequences out of 15000+600000
  14862 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,7n,37p,435b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,435b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb>
-Output written on JaoGapCaIIHKRelation.pdf (3 pages, 324711 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on JaoGapCaIIHKRelation.pdf (4 pages, 390575 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 31 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

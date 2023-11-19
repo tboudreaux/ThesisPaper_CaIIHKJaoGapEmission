@@ -7,45 +7,45 @@ Warning--entry type for "Boudreaux22" isn't style-file defined
 --line 2970 of file ms.bib
 Warning--I didn't find a database entry for "Boudreaux2021"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 15 entries,
+You've used 16 entries,
             3168 wiz_defined-function locations,
-            777 strings with 8363 characters,
-and the built_in function-call counts, 6706 in all, are:
-= -- 540
-> -- 508
+            786 strings with 8595 characters,
+and the built_in function-call counts, 7155 in all, are:
+= -- 580
+> -- 538
 < -- 9
-+ -- 169
-- -- 176
-* -- 591
-:= -- 1250
-add.period$ -- 16
-call.type$ -- 15
-change.case$ -- 81
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 243
-empty$ -- 419
-format.name$ -- 203
-if$ -- 1345
++ -- 179
+- -- 187
+* -- 631
+:= -- 1330
+add.period$ -- 17
+call.type$ -- 16
+change.case$ -- 87
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 260
+empty$ -- 447
+format.name$ -- 215
+if$ -- 1437
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 54
-num.names$ -- 60
-pop$ -- 86
+missing$ -- 14
+newline$ -- 57
+num.names$ -- 64
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 81
+purify$ -- 87
 quote$ -- 0
-skip$ -- 218
+skip$ -- 232
 stack$ -- 0
-substring$ -- 242
+substring$ -- 262
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 141
 warning$ -- 0
-while$ -- 54
+while$ -- 58
 width$ -- 0
-write$ -- 169
+write$ -- 180
 (There were 2 warnings)
