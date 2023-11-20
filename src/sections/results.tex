@@ -1,5 +1,5 @@
 \section{Correlation}\label{sec:results}
-Using Ca II H\&K emission data from \citet{Boudreaux2021} and
+Using Ca II H\&K emission data from \citet{Boudreaux2022} and
 \citet{Perdelwitz2021} (quantified using the $R_{HK}$ metric) we investigate
 the correlation between the Jao Gap magnitude and stellar magnetic activity. We
 are more statistically limited here than past authors have been due to
@@ -16,7 +16,7 @@ measure the false alarm probaility of the change in standard deviation.
 \begin{figure}
   \centering
   \includegraphics[width=0.45\textwidth]{figures/Combined.pdf}
-  \caption{Merged Dataset from \citet{Boudreaux2021, Perdelwitz2021}. Note the
+  \caption{Merged Dataset from \citet{Boudreaux2022, Perdelwitz2021}. Note the
   increase in the spread of $R'_{HK}$ around the Jao Gap Magnitude.}
   \label{fig:mergedData}
 \end{figure}
@@ -47,3 +47,41 @@ in Figure \ref{fig:dist}.
   distribution is $0.341\%\pm^{0.08}_{0.08}$.}
   \label{fig:dist}
 \end{figure}
+
+This rapid increase star-to-star variability would only arise due purley to
+noise $0.3\pm0.08$ percent of the time and is therefore likeley either a true
+effect or an alias of some sample bias. {\color{red} COME BACK TO HERE TO FLUSH
+OUT SAMPLE BIAS SECTION.}
+
+If the observed increase in variability is not due to a sample bias and rather
+is a physically driven effect then there is an obvious similarity between these
+findings and those of \citep{Jao2023}. Specifically we find a increase in
+variability just below the magnitude of the gap. Moreover, this variability
+increase is primarily driven by an increase in the number of low activity stars
+(as opposed to an increase in the number of high activity stars). We can
+further investigate the observed change in variability for only low activity
+stars by filtering out those stars at or above the saturated threshold for
+magnetic activity. \citet{Boudreaux2022} identify $\log(R'_{HK}) = -4.436$ as
+the saturation threshold. We adopt this value and filter out all stars where
+$\log(R'_{HK}) \geq -4.436$. Applying the same analysis to this reduced dataset
+as was done to the full dataset we still find a discontinuity at the same
+location (Figure \ref{fig:reduced}). This discontinuity is of a smaller
+magnitude and consequently is more likley to be due purley to nouse, with a
+$7\pm0.2$ percent false alarm probability. This false alarm probility is
+however only concerned with the first point after the jump in variability. If
+we consider the false alarm probability of the entire high variabilty region
+then the probability that the high variability region is due purley to noise
+drops to $1.4\pm0.04$ percent.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/ReducedDeviation.pdf}
+  \caption{Spread in the magnetic activity metric for the merged sample with
+  any stars $\log(R'_{HK}) > -4.436$ filterd out.}
+  \label{fig:reduced}
+\end{figure}
+
+We observe a strong, likeley statistically signifigant, discontinuty in the
+star-to-star variability of Ca II K \& K emission coincident with the magnitude
+of the Jao Gap. However, modeling is required to determine if this discontinuty
+may be due to the same underlying physics.

@@ -9,6 +9,11 @@
 {Baraffe}, I., \& {Chabrier}, G. 2018, \aap, 619, A177,
   \dodoi{10.1051/0004-6361/201834062}
 
+\bibitem[{{Boudreaux} {et~al.}(2022){Boudreaux}, {Newton}, {Mondrik},
+  {Charbonneau}, \& {Irwin}}]{Boudreaux2022}
+{Boudreaux}, E.~M., {Newton}, E.~R., {Mondrik}, N., {Charbonneau}, D., \&
+  {Irwin}, J. 2022, \apj, 929, 80, \dodoi{10.3847/1538-4357/ac5cbf}
+
 \bibitem[{Boudreaux(2022)}]{Boudreaux22}
 Boudreaux, T. 2022, tboudreaux/pytopsscrape: pyTOPSScrape v1.0, v1.0,  Zenodo,
   \dodoi{10.5281/zenodo.7094198}
