@@ -31,6 +31,10 @@ Dotter, A., Chaboyer, B., Jevremovi{\'c}, D., {et~al.} 2008, The Astrophysical
 {Feiden}, G.~A., {Skidmore}, K., \& {Jao}, W.-C. 2021, \apj, 907, 53,
   \dodoi{10.3847/1538-4357/abcc03}
 
+\bibitem[{{Grevesse} \& {Sauval}(1998)}]{Grevesse1998}
+{Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
+  \dodoi{10.1023/A:1005161325181}
+
 \bibitem[{{Irwin}(2012)}]{Irwin2012}
 {Irwin}, A.~W. 2012, {FreeEOS: Equation of State for stellar interiors
   calculations}, Astrophysics Source Code Library, record ascl:1211.002.
