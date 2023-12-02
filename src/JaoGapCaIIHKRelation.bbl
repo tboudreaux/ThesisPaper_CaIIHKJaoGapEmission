@@ -75,6 +75,14 @@ Richardson, L. 2007, April
 {Rodr{\'\i}guez-L{\'o}pez}, C. 2019, Frontiers in Astronomy and Space Sciences,
   6, 76, \dodoi{10.3389/fspas.2019.00076}
 
+\bibitem[{{Shulyak} {et~al.}(2019){Shulyak}, {Reiners}, {Nagel}, {Tal-Or},
+  {Caballero}, {Zechmeister}, {B{\'e}jar}, {Cort{\'e}s-Contreras}, {Martin},
+  {Kaminski}, {Ribas}, {Quirrenbach}, {Amado}, {Anglada-Escud{\'e}}, {Bauer},
+  {Dreizler}, {Guenther}, {Henning}, {Jeffers}, {K{\"u}rster}, {Lafarga},
+  {Montes}, {Morales}, \& {Pedraz}}]{Shulyak2019}
+{Shulyak}, D., {Reiners}, A., {Nagel}, E., {et~al.} 2019, \aap, 626, A86,
+  \dodoi{10.1051/0004-6361/201935315}
+
 \bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
   {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
   {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
@@ -83,9 +91,5 @@ Richardson, L. 2007, April
   {Wheelock}}]{Skrutskie2006}
 {Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, \aj, 131,
   1163, \dodoi{10.1086/498708}
-
-\bibitem[{{Spada} {et~al.}(2021){Spada}, {Demarque}, \& {Kupka}}]{Spada2021}
-{Spada}, F., {Demarque}, P., \& {Kupka}, F. 2021, \mnras, 504, 3128,
-  \dodoi{10.1093/mnras/stab1106}
 
 \end{thebibliography}
