@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  2 DEC 2023 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  16 JAN 2024 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,86 +630,150 @@ dfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./figures/ReducedDeviation.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 2951) in paragraph at lines 98--99
-[]\OT1/cmr/m/n/10 ANALYSIS OF THE RO-TA-TIONAL PE-RI-ODS
- []
 
-) (./sections/modeling.tex [4]
-<figures/Kippenhan_clamped.pdf, id=183, 1034.60086pt x 450.02605pt>
+Package natbib Warning: Citation `Feiden2022' on page 4 undefined on input line
+ 111.
+
+<figures/GapLocationMC.pdf, id=175, 622.44894pt x 437.70929pt>
+File: figures/GapLocationMC.pdf Graphic file (type pdf)
+<use figures/GapLocationMC.pdf>
+Package pdftex.def Info: figures/GapLocationMC.pdf  used on input line 119.
+(pdftex.def)             Requested size: 230.90128pt x 162.37067pt.
+
+Package natbib Warning: Citation `023AJ....165..192G' on page 4 undefined on in
+put line 138.
+
+
+Package natbib Warning: Citation `https://doi.org/10.5281/zenodo.7697238' on pa
+ge 4 undefined on input line 158.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.170 
+       <./figures/GapLocationMC.pdf>]
+
+Package natbib Warning: Citation `Wright2018' on page 5 undefined on input line
+ 178.
+
+
+LaTeX Warning: Reference `eqn:tauc' on page 5 undefined on input line 178.
+
+<figures/RotationSignifigance.pdf, id=224, 628.1811pt x 821.84242pt>
+File: figures/RotationSignifigance.pdf Graphic file (type pdf)
+<use figures/RotationSignifigance.pdf>
+Package pdftex.def Info: figures/RotationSignifigance.pdf  used on input line 1
+98.
+(pdftex.def)             Requested size: 230.90128pt x 302.08302pt.
+<figures/Rossby.pdf, id=225, 628.67159pt x 443.93193pt>
+File: figures/Rossby.pdf Graphic file (type pdf)
+<use figures/Rossby.pdf>
+Package pdftex.def Info: figures/Rossby.pdf  used on input line 206.
+(pdftex.def)             Requested size: 230.90128pt x 163.0465pt.
+) (./sections/modeling.tex [5pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {Modeling}\label{sec:modeling}pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.7}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {Modeling}\label{sec:modeling} <./figures/RotationSignifigance.pdf>
+ <./figures/Rossby.pdf
+
+pdfTeX warning: pdflatex (file ./figures/Rossby.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>]
+<figures/Kippenhan_clamped.pdf, id=260, 1034.60086pt x 450.02605pt>
 File: figures/Kippenhan_clamped.pdf Graphic file (type pdf)
 <use figures/Kippenhan_clamped.pdf>
 Package pdftex.def Info: figures/Kippenhan_clamped.pdf  used on input line 47.
 (pdftex.def)             Requested size: 461.80255pt x 200.86867pt.
-<figures/simpleBEvolution.pdf, id=186, 628.67159pt x 446.88333pt>
+<figures/simpleBEvolution.pdf, id=263, 628.67159pt x 446.88333pt>
 File: figures/simpleBEvolution.pdf Graphic file (type pdf)
 <use figures/simpleBEvolution.pdf>
 Package pdftex.def Info: figures/simpleBEvolution.pdf  used on input line 68.
 (pdftex.def)             Requested size: 230.90128pt x 164.13048pt.
-<figures/SpreadModel.pdf, id=189, 631.1627pt x 437.70929pt>
+<figures/SpreadModel.pdf, id=266, 631.1627pt x 437.70929pt>
 File: figures/SpreadModel.pdf Graphic file (type pdf)
 <use figures/SpreadModel.pdf>
 Package pdftex.def Info: figures/SpreadModel.pdf  used on input line 90.
 (pdftex.def)             Requested size: 230.90128pt x 160.12656pt.
-) [5] (./sections/conclusion.tex) [6pdfTeX warning (ext4): destination with the
- same identifier (name{figure.5}) has been already used, duplicate ignored
+ [6]) [7pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
+l.68 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-}) has been already used, duplicate ignored
+l.68 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
+l.68 
       <./figures/Kippenhan_clamped.pdf> <./figures/simpleBEvolution.pdf> <./fig
-ures/SpreadModel.pdf>] (./JaoGapCaIIHKRelation.bbl) [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+ures/SpreadModel.pdf>] (./sections/conclusion.tex) (./JaoGapCaIIHKRelation.bbl
+[8]) [9]
 
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 (./JaoGapCaIIHKRelation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 108.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 9413 strings out of 492641
- 129271 string characters out of 6131787
- 286094 words of memory out of 5000000
- 13124 multiletter control sequences out of 15000+600000
- 14554 words of font info for 58 fonts, out of 8000000 for 9000
+ 9476 strings out of 492641
+ 130888 string characters out of 6131787
+ 280151 words of memory out of 5000000
+ 13169 multiletter control sequences out of 15000+600000
+ 14862 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1323b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on JaoGapCaIIHKRelation.pdf (7 pages, 3280608 bytes).
+ 35i,8n,37p,877b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on JaoGapCaIIHKRelation.pdf (9 pages, 3315137 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 45 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

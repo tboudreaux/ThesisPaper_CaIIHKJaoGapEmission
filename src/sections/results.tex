@@ -87,22 +87,149 @@ star-to-star variability of Ca II K \& K emission just below the magnitude
 of the Jao Gap. However, modeling is required to determine if this discontinuity
 may be due to the same underlying physics.
 
-While the observed increase in variability seen here is not coincident with the Jao Gap and is instead approximately 0.5 mag fainter this is in agreement with what is observed in \citet{Jao2023}. The authors find, similar to the results presented here, that the paucity of $H\alpha$ emission originates just below the gap. Moreover, we use a 0.5 magnitude bin size when measuring the star-to-star variability which injects error into the positioning of any feature in magnitude space.
+While the observed increase in variability seen here does not seem to be
+coincident with the Jao Gap --- instead appearing to be approximately 0.5 mag
+fainter, in agreement with what is observed in \citet{Jao2023} --- a number of
+complicating factors prevent us from falsifying that the these two features are
+not coincident. \citeauthor{Jao2023} find, similar to the results presented
+here, that the paucity of $H\alpha$ emission originates just below the gap.
+Moreover, we use a 0.5 magnitude bin size when measuring the star-to-star
+variability which injects error into the positioning of any feature in
+magnitude space. We can quantify the degree of uncertainty the magnitude bin
+choice injects by conducting Monte Carlo trials where bins are randomly shifted
+redder or bluer. We conduct 10,000 trials where each trial involves sampling a
+random shift to the bin start location from a normal distribution with a
+standard deviation of 1 magnitude. For each trial we identify the discontinuity
+location as the maximum value of the gradient of the standard deviation
+(effectively this is just the derivative of \ref{fig:reduced}). Some trials
+result in the maximal value lying at the 0th index of the magnitude array due
+to edge effects, these trials are rejected (and account for 11\% of the
+trials). The uncertainty in the identified magnitude of the discontinuity due
+to the selected start point of the magnitude bins reveals a $1\sigma = \pm$0.32
+magnitude uncertainty in the location of the discontinuity (Figure
+\ref{fig:GapLocationMC}). Finally, all previous studies of the M dwarf gap
+\citep{Jao2018, Feiden2022, Mansfield2021, Boudreaux2022, Jao2023} demonstrate
+that the gap has a color dependency, shifting to fainter magnitudes as the
+population reddens and consequently an exact magnitude range is ill-defined.
+Therefore we cannot falsify the model that the discontinuity in star-to-star activity
+variability is coincident with the Jao Gap magnitude.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/GapLocationMC.pdf}
+  \caption{Probability density distribution of discontinuity location as
+  identified in the merged dataset. The dashed line represents the mean of the
+  distribution while the shaded region runs from the 16th percentile to the
+  84th percentile of the distribution. This distribution was built from 10,000
+  independent samples where the discontinuity was identified as the highest
+  value in the gradient of the standard deviation.}
+  \label{fig:GapLocationMC}
+\end{figure}
 
 \subsection{Rotation}
-Following the process described in Garcia Soto et al. (2023), we first put the dataset through \texttt{stella} (Feinstein et al. 2020), a convolutional neural network that trains a multitude of models, given a different initial seed, on TESS 2-min cadence. In this case, we also used an ensemble of 100 models to optimize the gains. \texttt{stella} identifies flares given a score of 0 to 1, here we use a score of 0.5 and above as flare identification. Furthermore, we also bin the data from a 2-min to 10-min cadence using \texttt{lightkurve}'s binning function (Lightkurve Collaboration et al. 2018, Geert Barentsen et al. 2020). Not only does this help further reduce any flaring-contribution that might have been missed by \texttt{stella}\footnote{This is relevant for flares that are misshapen at the start or break in the dataset due to missing either the ingress or egress.}, but it also optimizes computational efficiency. Subsequently, we calculate residuals by subtracting the model from the data, retaining data with residuals smaller than 4 times the root-mean-square.
+It is well known that stars magnetic activity tend to be corrleated with their
+rotational velocity {\color{red}[CITATIONS]}; therefore, we investigate whether
+there is a similar correlation between gap location and rotational period in
+our dataset. rotational periods have already been published for the targets
+presented in \citet{Boudreaux2022}; however, for the additional targets pulled
+from \citet{Perdelwitz2021} we also present newley derivatived photometric
+rotational periods.
 
-As M dwarfs often exhibit non-sinusoidal and quasi-periodic rotational variability, we employ Gaussian processes for modeling based on Angus et al. (2018). The \texttt{starspot} package is adapted for light curve analysis, as detailed in Angus et al. (2021) and accessible at (HAVEN'T DONE IT YET-AYLIN). Our Gaussian process kernel function incorporates two stochastically-driven simple harmonic oscillators, representing primary ($P_\textrm{rot}$) and secondary ($P_\textrm{rot}/2$) rotation modes. The code also allows the initial input of a period, which we implemented in the cases in which the results were odd, we would apply a 30% range truncated normal prior on $\log{P_{rot}}$ to prevent unnecessary exploration of parameter space around $P_{rot}/2$. When there isn't an input reference period, the code uses the Lomb-Scargle periodogram (\url{https://github.com/RuthAngus/starspot/tree/v0.2 }) to initially estimate the period. After which, we create a maximum a posteriori (MAP) fit using \texttt{starspot} to generate a model for stellar rotation. To obtain the posterior of the stellar rotation model, we use Markov Chain Monte Carlo (MCMC) sampling using the \texttt{pymc3} package within our adapted \texttt{starspot} version (Salvatier et al. (2016). 
+Following the process described in \citet{023AJ....165..192G}, we first put the
+dataset through \texttt{stella} \citep{FeinsteinFlare2020,FeinsteinStella2020},
+a convolutional neural network that trains a multitude of models, given a
+different initial seed, on TESS 2-min cadence. In this case, we also used an
+ensemble of 100 models to optimize the gains. \texttt{stella} identifies flares
+given a score of 0 to 1, here we use a score of 0.5 and above as flare
+identification. Furthermore, we also bin the data from a 2-min to 10-min
+cadence using \texttt{lightkurve}'s binning function
+\citep{LightkurveCollaborationLightkurve2018,GeertBarentsenKeplerGO2020}. Not
+only does this help further reduce any flaring-contribution that might have
+been missed by \texttt{stella}\footnote{This is relevant for flares that are
+misshapen at the start or break in the dataset due to missing either the
+ingress or egress.}, but it also optimizes computational efficiency.
+Subsequently, we calculate residuals by subtracting the model from the data,
+retaining data with residuals smaller than 4 times the root-mean-square.
+
+As M dwarfs often exhibit non-sinusoidal and quasi-periodic rotational
+variability, we employ Gaussian processes for modeling based on
+\citet{AngusInferring2018} for the subset of M Dwarfs with no fiducial periods.
+The \texttt{starspot} \ package is adapted for light curve analysis
+\citep{AngusRuthAngus2021,https://doi.org/10.5281/zenodo.7697238} and
+accessible at (HAVEN'T DONE IT YET-AYLIN). Our Gaussian process kernel function
+incorporates two stochastically-driven simple harmonic oscillators,
+representing primary ($P_\textrm{rot}$) and secondary ($P_\textrm{rot}/2$)
+rotation modes. First, we implement the Lomb-Scargle periodogram within
+\texttt{starpot} to initially estimate the period. After which, we create a
+maximum a posteriori (MAP) fit using \texttt{starspot} to generate a model for
+stellar rotation. To obtain the posterior of the stellar rotation model, we use
+Markov Chain Monte Carlo (MCMC) sampling using the \texttt{pymc3} package
+\citep{SalvatierProbabilistic2016} within our adapted \texttt{starspot}
+version. All rotational periods are presented in Table {\color{red}[TABLE]}. In
+total we have access fo 191 rotational periods.
+
+One might expect a decrease in mean rotational period around the magnitude of
+the gap, due to the slight decrease in magnetic activity. However, there is no
+statisitically signifigant correlation between rotational period and G
+magnitude which we can detect given our sample size (Figure
+\ref{fig:rotationalSignifigance}). Rotational period is however, not the ideal
+paraterization to use, as magnetic activity is more directly related to the
+rossby number \citep[i.e.][]{}. Using the empiricial calibration presented in
+\citet{Wright2018} (Equation \ref{eqn:tauc}) we find the mixing timescale for
+each star and then let the rossby number, $Ro = P_{rot}/\tau_{c}$.
+
+\begin{equation}
+  \tau_{c} = 0.64 + 0.25 * (V-K)
+\end{equation}
+
+When we compare rossby number to G magnitude (Figure \ref{fig:rossby}) we find
+that there ay be a slight paucity of rotation coincident with the decrease in
+spread of the activity metric. We quantify the statistical signifigance of this
+drop by building a gaussian kernel density estimator (kde) based on the data
+outside of this range, and then resampling that kde 10000 times for each data
+point in the theorized paucity range. The falsealarm probability that that drop
+is due to noise is then the product of the fraction of samples which are less
+than or equal to the value of each data point. We find that there is a 0.022
+percent probabillity that this dip is due purley to noise.
 
 
-{\color{red} ANALYSIS OF THE ROTATIONAL PERIODS AYLIN PROVIDES HERE.}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/RotationSignifigance.pdf}
+  \caption{Rotational Periods against G magnitude for all stars with rotational
+  periods (top). Standard deviation of rotational period within magnitude bin (bottom).}
+  \label{fig:rotationalSignifigance}
+\end{figure}
 
-\subsection{Limitations} ere are two primary limitation of our dataset. First,
-we only have {\color{red}232 stars} in our dataset limiting the statistical
-power of our analysis. This is primarily due to the relative difficulty of
-obtaining Ca II H\&K measurements compared to obtaining $H\alpha$ measurements.
-Reliable measurements require both high spectral resolutions ({\color{red} R
-$\sim$ XXXXXX}) and a comparatively blue wavelength range \footnote{wrt. too what
-many spectrographs cover. There is no unified resource listing currently commissioned spectrographs; however, it is somewhat hard to source glass which transmits well at H\&K wavelengths limiting the lower wavelength of most spectrographs.}.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/Rossby.pdf}
+  \caption{Rossby number vs. G magnitude for all stars with rotational periods
+  and V-K colors on Simbad. Dashed lines represent the hypothesized region of decreased rotation.}
+  \label{fig:rossby}
+\end{figure}
 
-Additionally, the sample we do have does not extend to as low mass as would be ideal. This presents a degeneracy between two potential causes for the observed increased star-to-star variability. One option, as presented above and elaborated on in the following section, is that this is due to kissing instabilities. However, another possibility is that this increased variability is intrinsic to the magnetic fields of fully convective stars. There is limited discussion in the literature of the latter effect; however, \citet{Shulyak2019} present estimated magnetic field strengths for 47 M dwarfs, spanning a larger area around the convective transition region and their dataset does not indicate a inherently increased variability for fully convective stars ({\color{red} fully confirm this, not just visually}).
+
+\subsection{Limitations}
+There are two primary limitation of our dataset. First, we only have
+{\color{red}232 stars} in our dataset limiting the statistical power of our
+analysis. This is primarily due to the relative difficulty of obtaining Ca II
+H\&K measurements compared to obtaining $H\alpha$ measurements. Reliable
+measurements require both high spectral resolutions ({\color{red} R $\sim$
+XXXXXX}) and a comparatively blue wavelength range \footnote{wrt. too what many
+spectrographs cover. There is no unified resource listing currently
+commissioned spectrographs; however, it is somewhat hard to source glass which
+transmits well at H\&K wavelengths limiting the lower wavelength of most
+spectrographs.}.
+
+Additionally, the sample we do have does not extend to as low mass as would be
+ideal. This presents a degeneracy between two potential causes for the observed
+increased star-to-star variability. One option, as presented above and
+elaborated on in the following section, is that this is due to kissing
+instabilities. However, another possibility is that this increased variability
+is intrinsic to the magnetic fields of fully convective stars. There is limited
+discussion in the literature of the latter effect; however, \citet{Shulyak2019}
+present estimated magnetic field strengths for 47 M dwarfs, spanning a larger
+area around the convective transition region and their dataset does not
+indicate a inherently increased variability for fully convective stars
+({\color{red} fully confirm this, not just visually}).

@@ -5,9 +5,27 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{Angus(2021)}]{AngusRuthAngus2021}
+Angus, R. 2021, Zenodo, \dodoi{10.5281/zenodo.4613887}
+
+\bibitem[{Angus {et~al.}(2018)Angus, Morton, Aigrain, {Foreman-Mackey}, \&
+  Rajpaul}]{AngusInferring2018}
+Angus, R., Morton, T., Aigrain, S., {Foreman-Mackey}, D., \& Rajpaul, V. 2018,
+  Monthly Notices of the Royal Astronomical Society, 474, 2094,
+  \dodoi{10.1093/mnras/stx2109}
+
 \bibitem[{{Baraffe} \& {Chabrier}(2018)}]{Baraffe2018}
 {Baraffe}, I., \& {Chabrier}, G. 2018, \aap, 619, A177,
   \dodoi{10.1051/0004-6361/201834062}
+
+\bibitem[{Barentsen {et~al.}(2020)Barentsen, Hedges, Vin{\'i}cius, Saunders,
+  {gully}, Hall, Bell, Sagear, III, Barclay, KenMighell, Zhang, Davies,
+  Turtelboom, {Dan Foreman-Mackey}, Cody, {Zach Berta-Thompson}, Lee, Williams,
+  Szabo, Carvalho, Bado, Higgins00, Daniel, Vincello, \&
+  Sundaram}]{GeertBarentsenKeplerGO2020}
+Barentsen, G., Hedges, C., Vin{\'i}cius, Z., {et~al.} 2020,
+  {{KeplerGO}}/Lightkurve: {{Lightkurve}} v1.11.0, Zenodo,
+  \dodoi{10.5281/zenodo.3836658}
 
 \bibitem[{{Boudreaux} {et~al.}(2022){Boudreaux}, {Newton}, {Mondrik},
   {Charbonneau}, \& {Irwin}}]{Boudreaux2022}
@@ -30,6 +48,16 @@ Dotter, A., Chaboyer, B., Jevremovi{\'c}, D., {et~al.} 2008, The Astrophysical
 \bibitem[{{Feiden} {et~al.}(2021){Feiden}, {Skidmore}, \& {Jao}}]{Feiden2021}
 {Feiden}, G.~A., {Skidmore}, K., \& {Jao}, W.-C. 2021, \apj, 907, 53,
   \dodoi{10.3847/1538-4357/abcc03}
+
+\bibitem[{Feinstein {et~al.}(2020{\natexlab{a}})Feinstein, Montet, \&
+  Ansdell}]{FeinsteinStella2020}
+Feinstein, A., Montet, B., \& Ansdell, M. 2020{\natexlab{a}}, J. Open Source
+  Softw., 5, 2347, \dodoi{10.21105/joss.02347}
+
+\bibitem[{Feinstein {et~al.}(2020{\natexlab{b}})Feinstein, Montet, Ansdell,
+  Nord, Bean, G{\"u}nther, {Gully-Santiago}, \& Schlieder}]{FeinsteinFlare2020}
+Feinstein, A.~D., Montet, B.~T., Ansdell, M., {et~al.} 2020{\natexlab{b}},
+  Astron. J., 160, 219, \dodoi{10.3847/1538-3881/abac0a}
 
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{Grevesse1998}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
@@ -57,6 +85,17 @@ Dotter, A., Chaboyer, B., Jevremovi{\'c}, D., {et~al.} 2008, The Astrophysical
 {Jao}, W.-C., {Henry}, T.~J., {White}, R.~J., {et~al.} 2023, \aj, 166, 63,
   \dodoi{10.3847/1538-3881/ace2bb}
 
+\bibitem[{{Lightkurve Collaboration} {et~al.}(2018){Lightkurve Collaboration},
+  Cardoso, Hedges, {Gully-Santiago}, Saunders, Cody, Barclay, Hall, Sagear,
+  Turtelboom, Zhang, Tzanidakis, Mighell, Coughlin, Bell, {Berta-Thompson},
+  Williams, Dotson, \& Barentsen}]{LightkurveCollaborationLightkurve2018}
+{Lightkurve Collaboration}, Cardoso, J. V. d.~M., Hedges, C., {et~al.} 2018,
+  Astrophysics Source Code Library, ascl:1812.013
+
+\bibitem[{{Mansfield} \& {Kroupa}(2021)}]{Mansfield2021}
+{Mansfield}, S., \& {Kroupa}, P. 2021, \aap, 650, A184,
+  \dodoi{10.1051/0004-6361/202140536}
+
 \bibitem[{{Nutzman} \& {Charbonneau}(2008)}]{Nut08}
 {Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317,
   \dodoi{10.1086/533420}
@@ -74,6 +113,11 @@ Richardson, L. 2007, April
 \bibitem[{{Rodr{\'\i}guez-L{\'o}pez}(2019)}]{Rodriguez-Lopez2019}
 {Rodr{\'\i}guez-L{\'o}pez}, C. 2019, Frontiers in Astronomy and Space Sciences,
   6, 76, \dodoi{10.3389/fspas.2019.00076}
+
+\bibitem[{Salvatier {et~al.}(2016)Salvatier, Wiecki, \&
+  Fonnesbeck}]{SalvatierProbabilistic2016}
+Salvatier, J., Wiecki, T.~V., \& Fonnesbeck, C. 2016, PeerJ Comput. Sci., 2,
+  e55, \dodoi{10.7717/peerj-cs.55}
 
 \bibitem[{{Shulyak} {et~al.}(2019){Shulyak}, {Reiners}, {Nagel}, {Tal-Or},
   {Caballero}, {Zechmeister}, {B{\'e}jar}, {Cort{\'e}s-Contreras}, {Martin},
