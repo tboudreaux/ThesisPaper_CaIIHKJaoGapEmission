@@ -6,50 +6,48 @@ Database file #1: ms.bib
 Warning--entry type for "Boudreaux22" isn't style-file defined
 --line 2970 of file ms.bib
 Warning--I didn't find a database entry for "Feiden2022"
-Warning--I didn't find a database entry for "023AJ....165..192G"
-Warning--I didn't find a database entry for "https://doi.org/10.5281/zenodo.7697238"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Wright2018"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 26 entries,
+You've used 31 entries,
             3168 wiz_defined-function locations,
-            862 strings with 12153 characters,
-and the built_in function-call counts, 12416 in all, are:
-= -- 970
-> -- 1032
-< -- 12
-+ -- 345
-- -- 366
-* -- 1153
-:= -- 2325
-add.period$ -- 27
-call.type$ -- 26
-change.case$ -- 146
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 425
-empty$ -- 718
-format.name$ -- 405
-if$ -- 2465
+            900 strings with 13793 characters,
+and the built_in function-call counts, 14963 in all, are:
+= -- 1171
+> -- 1256
+< -- 14
++ -- 420
+- -- 448
+* -- 1398
+:= -- 2801
+add.period$ -- 32
+call.type$ -- 31
+change.case$ -- 177
+chr.to.int$ -- 30
+cite$ -- 31
+duplicate$ -- 510
+empty$ -- 853
+format.name$ -- 495
+if$ -- 2968
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 87
-num.names$ -- 104
-pop$ -- 156
+missing$ -- 28
+newline$ -- 102
+num.names$ -- 124
+pop$ -- 188
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 177
 quote$ -- 0
-skip$ -- 373
+skip$ -- 444
 stack$ -- 0
-substring$ -- 445
+substring$ -- 530
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 231
+type$ -- 276
 warning$ -- 0
-while$ -- 93
+while$ -- 112
 width$ -- 0
-write$ -- 287
-(There were 6 warnings)
+write$ -- 342
+(There were 4 warnings)

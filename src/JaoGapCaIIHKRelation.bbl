@@ -27,6 +27,10 @@ Barentsen, G., Hedges, C., Vin{\'i}cius, Z., {et~al.} 2020,
   {{KeplerGO}}/Lightkurve: {{Lightkurve}} v1.11.0, Zenodo,
   \dodoi{10.5281/zenodo.3836658}
 
+\bibitem[{{Boudreaux} \& {Chaboyer}(2023)}]{Boudreaux2023}
+{Boudreaux}, E.~M., \& {Chaboyer}, B.~C. 2023, \apj, 944, 129,
+  \dodoi{10.3847/1538-4357/acb685}
+
 \bibitem[{{Boudreaux} {et~al.}(2022){Boudreaux}, {Newton}, {Mondrik},
   {Charbonneau}, \& {Irwin}}]{Boudreaux2022}
 {Boudreaux}, E.~M., {Newton}, E.~R., {Mondrik}, N., {Charbonneau}, D., \&
@@ -59,6 +63,20 @@ Feinstein, A., Montet, B., \& Ansdell, M. 2020{\natexlab{a}}, J. Open Source
 Feinstein, A.~D., Montet, B.~T., Ansdell, M., {et~al.} 2020{\natexlab{b}},
   Astron. J., 160, 219, \dodoi{10.3847/1538-3881/abac0a}
 
+\bibitem[{{Fuhrmeister} {et~al.}(2019){Fuhrmeister}, {Czesla}, {Schmitt},
+  {Johnson}, {Sch{\"o}fer}, {Jeffers}, {Caballero}, {Zechmeister}, {Reiners},
+  {Ribas}, {Amado}, {Quirrenbach}, {Bauer}, {B{\'e}jar},
+  {Cort{\'e}s-Contreras}, {D{\'\i}ez Alonso}, {Dreizler},
+  {Galad{\'\i}-Enr{\'\i}quez}, {Guenther}, {Kaminski}, {K{\"u}rster},
+  {Lafarga}, \& {Montes}}]{2019A&A...623A..24F}
+{Fuhrmeister}, B., {Czesla}, S., {Schmitt}, J.~H.~M.~M., {et~al.} 2019, \aap,
+  623, A24, \dodoi{10.1051/0004-6361/201834483}
+
+\bibitem[{{Garc{\'\i}a Soto} {et~al.}(2023){Garc{\'\i}a Soto}, {Newton},
+  {Douglas}, {Burrows}, \& {Kesseli}}]{2023AJ....165..192G}
+{Garc{\'\i}a Soto}, A., {Newton}, E.~R., {Douglas}, S.~T., {Burrows}, A., \&
+  {Kesseli}, A.~Y. 2023, \aj, 165, 192, \dodoi{10.3847/1538-3881/acc2ba}
+
 \bibitem[{{Grevesse} \& {Sauval}(1998)}]{Grevesse1998}
 {Grevesse}, N., \& {Sauval}, A.~J. 1998, \ssr, 85, 161,
   \dodoi{10.1023/A:1005161325181}
@@ -85,6 +103,10 @@ Feinstein, A.~D., Montet, B.~T., Ansdell, M., {et~al.} 2020{\natexlab{b}},
 {Jao}, W.-C., {Henry}, T.~J., {White}, R.~J., {et~al.} 2023, \aj, 166, 63,
   \dodoi{10.3847/1538-3881/ace2bb}
 
+\bibitem[{{Kumar} \& {Fares}(2023)}]{2023MNRAS.518.3147K}
+{Kumar}, M., \& {Fares}, R. 2023, \mnras, 518, 3147,
+  \dodoi{10.1093/mnras/stac2766}
+
 \bibitem[{{Lightkurve Collaboration} {et~al.}(2018){Lightkurve Collaboration},
   Cardoso, Hedges, {Gully-Santiago}, Saunders, Cody, Barclay, Hall, Sagear,
   Turtelboom, Zhang, Tzanidakis, Mighell, Coughlin, Bell, {Berta-Thompson},
@@ -95,6 +117,11 @@ Feinstein, A.~D., Montet, B.~T., Ansdell, M., {et~al.} 2020{\natexlab{b}},
 \bibitem[{{Mansfield} \& {Kroupa}(2021)}]{Mansfield2021}
 {Mansfield}, S., \& {Kroupa}, P. 2021, \aap, 650, A184,
   \dodoi{10.1051/0004-6361/202140536}
+
+\bibitem[{{Newton} {et~al.}(2016){Newton}, {Irwin}, {Charbonneau},
+  {Berta-Thompson}, {Dittmann}, \& {West}}]{Newton2016}
+{Newton}, E.~R., {Irwin}, J., {Charbonneau}, D., {et~al.} 2016, \apj, 821, 93,
+  \dodoi{10.3847/0004-637X/821/2/93}
 
 \bibitem[{{Nutzman} \& {Charbonneau}(2008)}]{Nut08}
 {Nutzman}, P., \& {Charbonneau}, D. 2008, \pasp, 120, 317,

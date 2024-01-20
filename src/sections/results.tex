@@ -101,7 +101,7 @@ redder or bluer. We conduct 10,000 trials where each trial involves sampling a
 random shift to the bin start location from a normal distribution with a
 standard deviation of 1 magnitude. For each trial we identify the discontinuity
 location as the maximum value of the gradient of the standard deviation
-(effectively this is just the derivative of \ref{fig:reduced}). Some trials
+(this is the derivative of the data in Figure \ref{fig:reduced}). Some trials
 result in the maximal value lying at the 0th index of the magnitude array due
 to edge effects, these trials are rejected (and account for 11\% of the
 trials). The uncertainty in the identified magnitude of the discontinuity due
@@ -127,46 +127,71 @@ variability is coincident with the Jao Gap magnitude.
 \end{figure}
 
 \subsection{Rotation}
-It is well known that stars magnetic activity tend to be corrleated with their
+It is well known that stars magnetic activity tend to be correlated with their
 rotational velocity {\color{red}[CITATIONS]}; therefore, we investigate whether
 there is a similar correlation between gap location and rotational period in
-our dataset. rotational periods have already been published for the targets
-presented in \citet{Boudreaux2022}; however, for the additional targets pulled
-from \citet{Perdelwitz2021} we also present newley derivatived photometric
-rotational periods.
+our dataset. All targets from \citet{Boudreaux2022} already have published
+rotational periods; however, targets from \citet{Perdelwitz2021} do not
+nessisarily have published periods. Therefore, we derive photometric rotational
+periods for these targets here. Given the inherent heterogeneity of M Dwarf
+stellar surfaces {\color{red}[CITATION]} we are able to determine the
+rotational period of a star through the analysis of active regions. Various
+methodologies can be employed for this purpose, including the examination of
+photometry and light curves \citep[e.g.,][]{Newton2016}, and the observation of
+temporal changes in the strength of chromospheric emission lines such as Ca II
+H\&K or $H\alpha$ \citep[e.g.,][]{2019A&A...623A..24F,2023MNRAS.518.3147K}. New
+rotatioal periods are derived from TESS 2-minute cadence data. \footnote{Some M
+Dwarfs lacking a documented rotational period did not have sufficient TESS data
+to yield fiducial rotational periods}.
 
-Following the process described in \citet{023AJ....165..192G}, we first put the
-dataset through \texttt{stella} \citep{FeinsteinFlare2020,FeinsteinStella2020},
-a convolutional neural network that trains a multitude of models, given a
-different initial seed, on TESS 2-min cadence. In this case, we also used an
-ensemble of 100 models to optimize the gains. \texttt{stella} identifies flares
-given a score of 0 to 1, here we use a score of 0.5 and above as flare
-identification. Furthermore, we also bin the data from a 2-min to 10-min
-cadence using \texttt{lightkurve}'s binning function
-\citep{LightkurveCollaborationLightkurve2018,GeertBarentsenKeplerGO2020}. Not
-only does this help further reduce any flaring-contribution that might have
-been missed by \texttt{stella}\footnote{This is relevant for flares that are
-misshapen at the start or break in the dataset due to missing either the
-ingress or egress.}, but it also optimizes computational efficiency.
-Subsequently, we calculate residuals by subtracting the model from the data,
-retaining data with residuals smaller than 4 times the root-mean-square.
+Due to both the large frequency and amplitudes of M dwarf flaring rates the
+photometic period can proove difficulut to measure --- as frequency directly
+correlates with periodicity. Thus, following the process described in
+\citet{2023AJ....165..192G}, we utilize two methods in this paper to reduce the
+affect of flares. One method uses \texttt{stella} {\color{red}[CITATION]} a
+python package which impliments an series of pre-trained convolutional neural
+networks (CNNs) to remove flare-shaped features in a light curve. The second
+method seperates a stars photometry into 10 minute bins to account for
+misshapen flares which the CNN \texttt{stella} is known to be biassed against.
 
-As M dwarfs often exhibit non-sinusoidal and quasi-periodic rotational
-variability, we employ Gaussian processes for modeling based on
+\texttt{stella} \citep{FeinsteinFlare2020,FeinsteinStella2020} employs a
+diverse library of models trained with varying initial seeds. The Convolutional
+Neural Networks in \texttt{stella} are trained on labeled TESS 2-min for both
+flares and non-flares. For the purposes of this paper, we use an ensemble of
+100 models in \texttt{stella}'s library to optimize the gains
+{\color{green}[Emily: Aylin, what are gains?]}. \texttt{stella} scores flairs
+with a probability of between 0 to 1 --- where higher values indicate a higher
+confidence that a feature is a flare. Here we apopt a score of 0.5 as the
+cutoff threshold, all features with a score of 0.5 or greater are classed as
+flares and removed \citep[e.g.][]{FeinsteinFlare2020}.
+
+Furthermore, we also bin the data from a 2-min to 10-min cadence using the
+python package \texttt{lightkurve}'s binning function
+\citep{LightkurveCollaborationLightkurve2018,GeertBarentsenKeplerGO2020}. This
+further reduces any flaring-contribution that might have been missed by
+\texttt{stella} \footnote{This is relevant for flares that are misshapen at the
+start or break in the dataset due to missing either the ingress or egress.}
+Subsequently, we filter photometry by only retaining data whos residules are
+lless than 4 times the root-mean-square {\color{green}[Emily: Aylin, the RMS of
+what?]} 
+
+Gaussian processes for modeling the periods are based on
 \citet{AngusInferring2018} for the subset of M Dwarfs with no fiducial periods.
 The \texttt{starspot} \ package is adapted for light curve analysis
-\citep{AngusRuthAngus2021,https://doi.org/10.5281/zenodo.7697238} and
-accessible at (HAVEN'T DONE IT YET-AYLIN). Our Gaussian process kernel function
+\citep{AngusRuthAngus2021} and accessible at
+\url{https://zenodo.org/records/7697238}. Our Gaussian process kernel function
 incorporates two stochastically-driven simple harmonic oscillators,
 representing primary ($P_\textrm{rot}$) and secondary ($P_\textrm{rot}/2$)
 rotation modes. First, we implement the Lomb-Scargle periodogram within
-\texttt{starpot} to initially estimate the period. After which, we create a
+\texttt{starspot} to initially estimate the period. After which, we create a
 maximum a posteriori (MAP) fit using \texttt{starspot} to generate a model for
 stellar rotation. To obtain the posterior of the stellar rotation model, we use
 Markov Chain Monte Carlo (MCMC) sampling using the \texttt{pymc3} package
 \citep{SalvatierProbabilistic2016} within our adapted \texttt{starspot}
-version. All rotational periods are presented in Table {\color{red}[TABLE]}. In
-total we have access fo 191 rotational periods.
+version. All rotational periods are presented in Table \ref{tab:dataset}. In
+total we have access to 191 rotational periods.
+
+\input{tables/rotationalTable.tex}
 
 One might expect a decrease in mean rotational period around the magnitude of
 the gap, due to the slight decrease in magnetic activity. However, there is no

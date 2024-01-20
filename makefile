@@ -22,3 +22,17 @@ clean:
 	-rm $(NAME).bbl
 	-rm $(NAME).aux
 	-rm $(NAME).log
+
+ApJ:
+	cd $(SRC_DIR) && pubPolish --target ApJ --dest ApJ ./$(MAIN_SRC) && mv ApJ ../
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC) 
+	cd ApJ && $(BTC) $(NAME)
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
+
+ArXiv:
+	cd $(SRC_DIR) && pubPolish --target ArXiV --dest ArXiV ./$(MAIN_SRC) && mv ArXiv ../
+	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC) 
+	cd ArXiV && $(BTC) $(NAME)
+	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
+	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
