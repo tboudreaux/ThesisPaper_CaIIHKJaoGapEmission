@@ -12,21 +12,21 @@ timescale resolutions needed to resolve periodic mixing events.
 In order to address this and answer the specific question of \textit{could
 kissing instabilities result in increased star-to-star variability of the
 magnetic field}, we adopt a very simple toy model. Kissing instabilities result
-in transient radiative zone separating the core of a star (convective) from its
+in a transient radiative zone separating the core of a star (convective) from its
 envelope (convective). When this radiative zone breaks down two important
 things happen: one, the entire star becomes mechanically coupled, and two,
 convective currents can now move over the entire radius of the star.
-\citet{Jao2023} propose that this mechanical coupling may allow the stars core
+\citet{Jao2023} propose that this mechanical coupling may allow the star's core
 to act as an angular momentum sink thus accelerating a stars spin down and
 resulting in anomalously low H$\alpha$ emission. 
 
-Regardless of the exact mechanism by which the magnetic field may be effected,
-it it reasonable to expect that both the mechanical coupling and the change to
-the scale of convective currents will have some effect on the stars magnetic
+Regardless of the exact mechanism by which the magnetic field may be affected,
+it is reasonable to expect that both the mechanical coupling and the change to
+the scale of convective currents will have some effect on the star's magnetic
 field. On a microscopic scale both of these will change how packets of charge
 within a star move and may serve to disrupt a stable dynamo. Therefore, in the
 model we present here we make only one primary assumption: \textit{every mixing
-event may modify the stars magnetic field by some amount}. Within our model
+event may modify the star's magnetic field by some amount}. Within our model
 this assumption manifests as a random linear perturbation applied to some base
 magnetic field at every mixing event. The strength of this perturbation is 
 sampled from a normal distribution with some standard deviation, $\sigma_{B}$.
@@ -34,14 +34,14 @@ sampled from a normal distribution with some standard deviation, $\sigma_{B}$.
 Synthetic stars are sampled from a grid of stellar models evolved using the
 Dartmouth Stellar Evolution Program (DSEP) with similar parameters to those
 used in \citet{Boudreaux2023}. Each stellar model was evolved using a high
-temporal resolution (timesteps no larger than 10,000 years {\color{red} Check
-this}) and typical numerical tolerances of one part in $10^5$. Each model was
-based on a GS98 \citep{Grevesse1998} solar composition with a mass range from
-0.3 M$_{\odot}$ to 0.4 M$_{\odot}$. Finally, models adopt OPLIB high
-temperature radiative opacities, Ferguson 2004 low temperature radiative
-opacities, and include both atomic diffusion and gravitational settling. A
-Kippenhan-Iben diagram showing the structural evolution of a model within the
-gap is shown in Figure \ref{fig:kippenhan}.
+temporal resolution (timesteps no larger than 10,000 years) and typical
+numerical tolerances of one part in $10^5$. Each model was based on a GS98
+\citep{Grevesse1998} solar composition with a mass range from 0.3 M$_{\odot}$
+to 0.4 M$_{\odot}$. Finally, models adopt OPLIB high temperature radiative
+opacities, Ferguson 2004 low temperature radiative opacities, and include both
+atomic diffusion and gravitational settling. A Kippenhan-Iben diagram showing
+the structural evolution of a model within the Gap is shown in Figure
+\ref{fig:kippenhan}.
 
 \begin{figure*}
   \centering
@@ -58,7 +58,7 @@ activity at age $t$ for the model is given in Equation \ref{eqn:activity}. An
 example of the magnetic evolution resulting from this model is given in Figure
 \ref{fig:simpleB}. Fundamentally, this model presents magnetic
 activity variation due to mixing events as a random walk and therefore results will
-increasingly divergence over time.
+increasing divergence over time.
 
 \begin{align}\label{eqn:activity}
   B(t) = B_{0} + \sum_{i}B_{i} \sim \mathcal{N}(1, \sigma_{B}) 
@@ -74,13 +74,16 @@ increasingly divergence over time.
 \end{figure}
 
 Applying the same analysis to these models as was done to the observations as
-described in Section {\color{red} X.X} we find that this simple model results
+described in Section \ref{sec:results} we find that this simple model results
 in a qualitatively similar trend in the standard deviation vs. Magnitude graph
 (Figure \ref{fig:model}). In order to reproduce the approximately 50 percent
 change to the spread of the activity metric observed in the combined dataset in
-section \ref{sec:results} a distribution with a standard deviation of 0.1 is required when sampling the change in the magnetic activity metric at each mixing event. This corresponds to 68\% of mixing events modifying the activity strength by 10 percent or less. The interpretation here is important, what
-this qualitative similarity demonstrates is that it may be reasonable to expect
-kissing instabilities to result in the observed increased star-to-star
+section \ref{sec:results} a distribution with a standard deviation of 0.1 is
+required when sampling the change in the magnetic activity metric at each
+mixing event. This corresponds to 68 percent of mixing events modifying the
+activity strength by 10 percent or less. The interpretation here is important:
+what this qualitative similarity demonstrates is that it may be reasonable to
+expect kissing instabilities to result in the observed increased star-to-star
 variation. Importantly, we are not able to claim that kissing instabilities
 \textit{do} lead to these increased variations, only that they reasonably
 could. Further modeling, observational, and theoretical efforts will be needed
@@ -95,7 +98,7 @@ to more definitively answer this question.
 
 \subsection{Limitations}
 The model presented in this paper is very limited and it is important to keep
-those limitations in mind when interpreting the results presented here. Some of
+these limitations in mind when interpreting the results presented here. Some of
 the main challenges which should be leveled at this model are the assumption
 that the magnetic field will be altered by some small random perturbation at
 every mixing event. This assumption was informed by the large number of free

@@ -5,49 +5,48 @@ The style file: aasjournal.bst
 Database file #1: ms.bib
 Warning--entry type for "Boudreaux22" isn't style-file defined
 --line 2970 of file ms.bib
-Warning--I didn't find a database entry for "Feiden2022"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Wright2018"
+Warning--entry type for "Angus2023" isn't style-file defined
+--line 3674 of file ms.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 31 entries,
+You've used 52 entries,
             3168 wiz_defined-function locations,
-            900 strings with 13793 characters,
-and the built_in function-call counts, 14963 in all, are:
-= -- 1171
-> -- 1256
-< -- 14
-+ -- 420
-- -- 448
-* -- 1398
-:= -- 2801
-add.period$ -- 32
-call.type$ -- 31
-change.case$ -- 177
-chr.to.int$ -- 30
-cite$ -- 31
-duplicate$ -- 510
-empty$ -- 853
-format.name$ -- 495
-if$ -- 2968
+            1062 strings with 20168 characters,
+and the built_in function-call counts, 25381 in all, are:
+= -- 1995
+> -- 2151
+< -- 21
++ -- 722
+- -- 778
+* -- 2388
+:= -- 4760
+add.period$ -- 53
+call.type$ -- 52
+change.case$ -- 308
+chr.to.int$ -- 51
+cite$ -- 52
+duplicate$ -- 861
+empty$ -- 1424
+format.name$ -- 846
+if$ -- 5025
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 102
-num.names$ -- 124
-pop$ -- 188
+missing$ -- 48
+newline$ -- 165
+num.names$ -- 208
+pop$ -- 327
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 308
 quote$ -- 0
-skip$ -- 444
+skip$ -- 732
 stack$ -- 0
-substring$ -- 530
+substring$ -- 874
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 276
+type$ -- 465
 warning$ -- 0
-while$ -- 112
+while$ -- 190
 width$ -- 0
-write$ -- 342
-(There were 4 warnings)
+write$ -- 572
+(There were 2 warnings)

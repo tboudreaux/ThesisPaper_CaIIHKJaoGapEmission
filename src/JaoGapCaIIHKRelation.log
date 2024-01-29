@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  20 JAN 2024 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  29 JAN 2024 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,35 +468,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box61
 )
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 15.
+lass! (Proceeding with fingers crossed.) on input line 16.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 15.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 15.
+ fingers crossed) on input line 16.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 16.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 15.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 15.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 15.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 16.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 16.
 (./JaoGapCaIIHKRelation.aux)
 \openout1 = `JaoGapCaIIHKRelation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -529,7 +529,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -539,20 +539,20 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 19.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -563,32 +563,32 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 1--1
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/results.tex
-<figures/Combined.pdf, id=73, 639.99196pt x 437.70929pt>
+<figures/Combined.pdf, id=106, 639.99196pt x 437.70929pt>
 File: figures/Combined.pdf Graphic file (type pdf)
 <use figures/Combined.pdf>
-Package pdftex.def Info: figures/Combined.pdf  used on input line 19.
+Package pdftex.def Info: figures/Combined.pdf  used on input line 20.
 (pdftex.def)             Requested size: 230.90128pt x 157.91585pt.
-<figures/Deviation.pdf, id=84, 622.44894pt x 437.70929pt>
-File: figures/Deviation.pdf Graphic file (type pdf)
-<use figures/Deviation.pdf>
-Package pdftex.def Info: figures/Deviation.pdf  used on input line 37.
-(pdftex.def)             Requested size: 230.90128pt x 162.37067pt.
-<figures/fpDist.pdf, id=85, 608.56743pt x 603.58702pt>
-File: figures/fpDist.pdf Graphic file (type pdf)
-<use figures/fpDist.pdf>
-Package pdftex.def Info: figures/fpDist.pdf  used on input line 45.
-(pdftex.def)             Requested size: 230.90128pt x 229.00626pt.
 [2]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 56.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 35.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 56.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 35.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<figures/ReducedDeviation.pdf, id=110, 622.44894pt x 437.70929pt>
+<figures/Deviation.pdf, id=152, 622.44894pt x 437.70929pt>
+File: figures/Deviation.pdf Graphic file (type pdf)
+<use figures/Deviation.pdf>
+Package pdftex.def Info: figures/Deviation.pdf  used on input line 38.
+(pdftex.def)             Requested size: 230.90128pt x 162.37067pt.
+<figures/fpDist.pdf, id=153, 608.56743pt x 603.58702pt>
+File: figures/fpDist.pdf Graphic file (type pdf)
+<use figures/fpDist.pdf>
+Package pdftex.def Info: figures/fpDist.pdf  used on input line 46.
+(pdftex.def)             Requested size: 230.90128pt x 229.00626pt.
+<figures/ReducedDeviation.pdf, id=161, 622.44894pt x 437.70929pt>
 File: figures/ReducedDeviation.pdf Graphic file (type pdf)
 <use figures/ReducedDeviation.pdf>
 Package pdftex.def Info: figures/ReducedDeviation.pdf  used on input line 79.
@@ -598,26 +598,20 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-}) has been already used, duplicate ignored
+l.116 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
+l.116 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.89 
-      <./figures/Combined.pdf> <./figures/Deviation.pdf
+l.116 
+       <./figures/Combined.pdf> <./figures/Deviation.pdf
 
 pdfTeX warning: pdflatex (file ./figures/Deviation.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
@@ -625,148 +619,147 @@ e pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./figures/fpDist.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
-> <./figures/ReducedDeviation.pdf
-
-pdfTeX warning: pdflatex (file ./figures/ReducedDeviation.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
 >]
 
-Package natbib Warning: Citation `Feiden2022' on page 4 undefined on input line
- 111.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 116.
 
-<figures/GapLocationMC.pdf, id=175, 622.44894pt x 437.70929pt>
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 116.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<figures/GapLocationMC.pdf, id=224, 622.44894pt x 437.70929pt>
 File: figures/GapLocationMC.pdf Graphic file (type pdf)
 <use figures/GapLocationMC.pdf>
 Package pdftex.def Info: figures/GapLocationMC.pdf  used on input line 119.
 (pdftex.def)             Requested size: 230.90128pt x 162.37067pt.
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 
-       <./figures/GapLocationMC.pdf>] (./tables/rotationalTable.tex
-(./tables/rotationalTableCaption.tex))
+l.158 \texttt{stella}
+                       employs a diverse library of models trained with varying
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
 
-Package natbib Warning: Citation `Wright2018' on page 5 undefined on input line
- 203.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.158 \texttt{stella}
+                       employs a diverse library of models trained with varying
+ <./figures/ReducedDeviation.pdf> <./figures/GapLocationMC.pdf
 
-
-LaTeX Warning: Reference `eqn:tauc' on page 5 undefined on input line 203.
-
-<figures/RotationSignifigance.pdf, id=235, 628.1811pt x 821.84242pt>
+pdfTeX warning: pdflatex (file ./figures/GapLocationMC.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] (./tables/rotationalTable.tex (./tables/rotationalTableCaption.tex))
+<figures/RotationSignifigance.pdf, id=317, 628.1811pt x 821.84242pt>
 File: figures/RotationSignifigance.pdf Graphic file (type pdf)
 <use figures/RotationSignifigance.pdf>
 Package pdftex.def Info: figures/RotationSignifigance.pdf  used on input line 2
-23.
+22.
 (pdftex.def)             Requested size: 230.90128pt x 302.08302pt.
-<figures/Rossby.pdf, id=236, 628.67159pt x 443.93193pt>
+<figures/Rossby.pdf, id=318, 628.67159pt x 443.93193pt>
 File: figures/Rossby.pdf Graphic file (type pdf)
 <use figures/Rossby.pdf>
-Package pdftex.def Info: figures/Rossby.pdf  used on input line 231.
+Package pdftex.def Info: figures/Rossby.pdf  used on input line 230.
 (pdftex.def)             Requested size: 230.90128pt x 163.0465pt.
-) [5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
-) has been already used, duplicate ignored
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.65 
-      <./figures/RotationSignifigance.pdf>] (./sections/modeling.tex [6pdfTeX w
-arning (ext4): destination with the same identifier (name{table.1}) has been al
-ready used, duplicate ignored
+l.247 
+       <./figures/RotationSignifigance.pdf>]) (./sections/modeling.tex [6pdfTeX
+ warning (ext4): destination with the same identifier (name{table.1}) has been 
+already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 
+l.22 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 
+l.22 
       <./figures/Rossby.pdf>]
-<figures/Kippenhan_clamped.pdf, id=284, 1034.60086pt x 450.02605pt>
+<figures/Kippenhan_clamped.pdf, id=370, 1034.60086pt x 450.02605pt>
 File: figures/Kippenhan_clamped.pdf Graphic file (type pdf)
 <use figures/Kippenhan_clamped.pdf>
 Package pdftex.def Info: figures/Kippenhan_clamped.pdf  used on input line 48.
 (pdftex.def)             Requested size: 461.80255pt x 200.86867pt.
-<figures/simpleBEvolution.pdf, id=287, 628.67159pt x 446.88333pt>
+<figures/simpleBEvolution.pdf, id=373, 628.67159pt x 446.88333pt>
 File: figures/simpleBEvolution.pdf Graphic file (type pdf)
 <use figures/simpleBEvolution.pdf>
 Package pdftex.def Info: figures/simpleBEvolution.pdf  used on input line 69.
 (pdftex.def)             Requested size: 230.90128pt x 164.13048pt.
-<figures/SpreadModel.pdf, id=290, 631.1627pt x 437.70929pt>
+<figures/SpreadModel.pdf, id=377, 631.1627pt x 437.70929pt>
 File: figures/SpreadModel.pdf Graphic file (type pdf)
 <use figures/SpreadModel.pdf>
-Package pdftex.def Info: figures/SpreadModel.pdf  used on input line 91.
+Package pdftex.def Info: figures/SpreadModel.pdf  used on input line 94.
 (pdftex.def)             Requested size: 230.90128pt x 160.12656pt.
-) (./sections/conclusion.tex [7]) [8pdfTeX warning (ext4): destination with the
- same identifier (name{figure.8}) has been already used, duplicate ignored
+ [7]) (./sections/conclusion.tex [8pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 \acknowledgments
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.9}) has been already used, duplicate ignored
+l.4 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 \acknowledgments
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.10}) has been already used, duplicate ignored
+l.4 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.10
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 \acknowledgments
-                      <./figures/Kippenhan_clamped.pdf> <./figures/simpleBEvolu
-tion.pdf> <./figures/SpreadModel.pdf>] (./JaoGapCaIIHKRelation.bbl) [9]
+l.4 
+     <./figures/Kippenhan_clamped.pdf> <./figures/simpleBEvolution.pdf> <./figu
+res/SpreadModel.pdf>]) (./JaoGapCaIIHKRelation.bbl [9]) [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 (./JaoGapCaIIHKRelation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 107.
-
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 9529 strings out of 492641
- 131830 string characters out of 6131787
- 308237 words of memory out of 5000000
- 13208 multiletter control sequences out of 15000+600000
- 14862 words of font info for 59 fonts, out of 8000000 for 9000
+ 9614 strings out of 492641
+ 133400 string characters out of 6131787
+ 303296 words of memory out of 5000000
+ 13272 multiletter control sequences out of 15000+600000
+ 14554 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,11n,37p,437b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on JaoGapCaIIHKRelation.pdf (9 pages, 3320887 bytes).
+ 35i,11n,37p,437b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on JaoGapCaIIHKRelation.pdf (10 pages, 3319322 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 88 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
