@@ -2,10 +2,12 @@ LTC="pdflatex"
 BTC="bibtex"
 NAME="JaoGapCaIIHKRelation"
 TFLAGS="-jobname=$(NAME)"
-SRC_DIR="."
+SRC_DIR="src"
 MAIN_SRC="ms.tex"
 
 ASSET_FILES = $(shell find ./src/ -regex '.*\(tex\|pdf\)$')
+
+.PHONY: ApJ ArXiv
 
 default: all
 
@@ -24,7 +26,7 @@ clean:
 	-rm $(NAME).log
 
 ApJ:
-	cd $(SRC_DIR) && pubPolish --target ApJ --dest ApJ ./$(MAIN_SRC) && mv ApJ ../
+	pubPolish --target ApJ --dest ApJ $(SRC_DIR)/$(MAIN_SRC) --force --additional /mnt/p/d/Astronomy/GraduateSchool/Thesis/JaoGapActivity/ExploratoryData/rotationalTable.mrt
 	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC) 
 	cd ApJ && $(BTC) $(NAME)
 	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
@@ -36,3 +38,5 @@ ArXiv:
 	cd ArXiV && $(BTC) $(NAME)
 	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
 	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
+
+

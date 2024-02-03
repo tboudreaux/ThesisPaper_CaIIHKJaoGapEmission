@@ -1,0 +1,112 @@
+\documentclass[twocolumn]{aastex62}
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+\newcommand\addcitation{{\color{red}[CITATION]}}
+
+\usepackage{amsmath}
+\usepackage{cancel}
+\usepackage{float}
+
+\shorttitle{Updated Opacities for DSEP}
+\shortauthors{Boudreaux et al.}
+% \watermark{DRAFT}
+% \graphicspath{{./}{figures/}{src/figures}}
+
+\begin{document}
+
+\title{Correlations between Ca II H\&K Emission and the Gaia M dwarf Gap}
+
+\correspondingauthor{Emily M. Boudreaux}
+\email{emily.m.boudreaux.gr@dartmouth.edu,\\emily@boudreauxmail.com}
+
+\author[0000-0002-2600-7513]{Emily M. Boudreaux}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\author[0000-0001-9828-3229]{Aylin Garcia Soto}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\author[0000-0003-3096-4161]{Brian C. Chaboyer}
+\affiliation{Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA}
+
+\received{}
+\revised{}
+\revised{}
+\accepted{}
+\submitjournal{ApJ}
+
+
+\begin{abstract}
+  The Gaia M dwarf gap, also known as the Jao Gap, is a novel feature
+  discovered in the Gaia DR2 G vs. BP-RP color magnitude diagram. This gap
+  represents a 17 percent decrease in stellar density in a thin magnitude band around the
+  convective transition mass ($\sim 0.35 M_{\odot}$) on the main sequence.
+  Previous work has demonstrated a paucity of Hydrogen
+  Alpha emission coincident with the G magnitude of the Jao Gap in the solar
+  neighborhood. The exact mechanism which results in this paucity is as of yet
+  unknown; however, the authors of the originating paper suggest that it may
+  be the result of complex variations to a star's magnetic topology driven by
+  the Jao Gap's characteristic formation and breakdown of stars' radiative
+  transition zones. We present a follow up investigating another widely used
+  magnetic activity metric, Calcium II H\&K emission. Ca II H\&K activity
+  appears to share a similar anomalous behavior as H$\alpha$ does near the Jao
+  Gap magnitude. We observe an increase in star-to-star variation of magnetic
+  activity near the Jao Gap. This increase may be due to stochastic disruptions
+  to the magnetic field originating from the periodic mixing events
+  characteristic of the convective kissing instabilities which drive the
+  formation of the Jao Gap.
+
+\end{abstract}
+
+\keywords{Stellar Evolution (1599) --- Stellar Evolutionary Models (2046)}
+
+\input{intro.tex}
+
+\input{results.tex}
+
+\input{modeling.tex}
+
+\input{conclusion.tex}
+
+
+
+\acknowledgments{
+  This work has made use of the NASA astrophysical data system (ADS). We would
+  like to thank Elisabeth Newton, Aaron Dotter, and Gregory Feiden for their
+  support and for useful discussion related to the topic of this paper.
+  Additionally, we would like to thank Keighley Rockcliffe, Kara Fagerstrom,
+  and Isabel Halstead for their useful discussion related to this work. We
+  acknowledge the support of a NASA grant (No. 80NSSC18K0634). 
+}
+\acknowledgments
+
+% \begin{acknowledgments}
+% 	This work has made use of the NASA astrophysical data system (ADS). We
+% 	would like to thank Elisabeth Newton, Aaron Dotter, and Gregory Feiden for
+% 	their support and for useful discussion related to the topic of this paper.
+% 	We would like to thank our reviewer for their critical eye and their
+% 	guidance to investigate to effects of the mixing length on the Gap
+% 	Location. Additionally, we would like to thank James Colgan and the Los
+% 	Alamos T-1 group for their assistance with the OPLIB opacity tables and
+% 	support for the public release of \texttt{pyTOPSScrape}. We acknowledge the
+% 	support of a NASA grant (No. 80NSSC18K0634). 
+% \end{acknowledgments}
+
+\software{
+	The Dartmouth Stellar Evolution Program (DSEP) \citep{Dotter2008},
+	\texttt{BeautifulSoup} \citep{richardson2007beautiful},
+	\texttt{mechanize} \citep{chandra2015python},
+	\texttt{FreeEOS} \citep{Irwin2012},
+	\texttt{pyTOPSScrape} \citep{Boudreaux22},
+  \texttt{lightkurve} \citep{LightkurveCollaborationLightkurve2018},
+  \texttt{stella} \citep{FeinsteinStella2020},
+  \texttt{starspot} \citep{AngusRuthAngus2021,Angus2023}
+}
+
+
+\bibliography{ms}{}
+\bibliographystyle{aasjournal}
+
+
+\end{document}
+
