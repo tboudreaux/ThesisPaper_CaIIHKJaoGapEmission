@@ -33,10 +33,10 @@ ApJ:
 	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
 
 ArXiv:
-	cd $(SRC_DIR) && pubPolish --target ArXiV --dest ArXiV ./$(MAIN_SRC) && mv ArXiv ../
-	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC) 
-	cd ArXiV && $(BTC) $(NAME)
-	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
-	cd ArXiV && $(LTC) $(TFLAGS) $(MAIN_SRC)
+	pubPolish --target ArXiv --dest ArXiv $(SRC_DIR)/$(MAIN_SRC) --force --additional /mnt/p/d/Astronomy/GraduateSchool/Thesis/JaoGapActivity/ExploratoryData/rotationalTable.mrt
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC) 
+	cd ApJ && $(BTC) $(NAME)
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
+	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
 
 
