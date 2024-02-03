@@ -31,6 +31,7 @@ ApJ:
 	cd ApJ && $(BTC) $(NAME)
 	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
 	cd ApJ && $(LTC) $(TFLAGS) $(MAIN_SRC)
+	tar -czvf ApJ.tar.gz ApJ
 
 ArXiv:
 	pubPolish --target ArXiv --dest ArXiv $(SRC_DIR)/$(MAIN_SRC) --force --additional /mnt/p/d/Astronomy/GraduateSchool/Thesis/JaoGapActivity/ExploratoryData/rotationalTable.mrt
