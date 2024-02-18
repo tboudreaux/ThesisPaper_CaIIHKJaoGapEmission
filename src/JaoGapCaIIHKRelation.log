@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  18 FEB 2024 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.1.21)  18 FEB 2024 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,14 +597,7 @@ File: figures/fpDist.pdf Graphic file (type pdf)
 <use figures/fpDist.pdf>
 Package pdftex.def Info: figures/fpDist.pdf  used on input line 48.
 (pdftex.def)             Requested size: 230.90128pt x 229.00626pt.
-
-
-LaTeX Warning: Reference `fig:deviation' on page 3 undefined on input line 51.
-
-
-LaTeX Warning: Reference `fig:deviation' on page 3 undefined on input line 51.
-
-<figures/ReducedDeviation.pdf, id=176, 622.44894pt x 437.70929pt>
+<figures/ReducedDeviation.pdf, id=178, 622.44894pt x 437.70929pt>
 File: figures/ReducedDeviation.pdf Graphic file (type pdf)
 <use figures/ReducedDeviation.pdf>
 Package pdftex.def Info: figures/ReducedDeviation.pdf  used on input line 81.
@@ -649,7 +642,7 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 LaTeX Warning: Reference `fig:deviation' on page 4 undefined on input line 120.
 
 
-<figures/GapLocationMC.pdf, id=242, 622.44894pt x 437.70929pt>
+<figures/GapLocationMC.pdf, id=244, 622.44894pt x 437.70929pt>
 File: figures/GapLocationMC.pdf Graphic file (type pdf)
 <use figures/GapLocationMC.pdf>
 Package pdftex.def Info: figures/GapLocationMC.pdf  used on input line 135.
@@ -671,13 +664,13 @@ l.164
 pdfTeX warning: pdflatex (file ./figures/GapLocationMC.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >] (./tables/rotationalTable.tex (./tables/rotationalTableCaption.tex))
-<figures/RotationSignifigance.pdf, id=331, 628.1811pt x 821.84242pt>
+<figures/RotationSignifigance.pdf, id=333, 628.1811pt x 821.84242pt>
 File: figures/RotationSignifigance.pdf Graphic file (type pdf)
 <use figures/RotationSignifigance.pdf>
 Package pdftex.def Info: figures/RotationSignifigance.pdf  used on input line 2
 40.
 (pdftex.def)             Requested size: 230.90128pt x 302.08302pt.
-<figures/Rossby.pdf, id=332, 628.67159pt x 443.93193pt>
+<figures/Rossby.pdf, id=334, 628.67159pt x 443.93193pt>
 File: figures/Rossby.pdf Graphic file (type pdf)
 <use figures/Rossby.pdf>
 Package pdftex.def Info: figures/Rossby.pdf  used on input line 249.
@@ -706,18 +699,18 @@ l.65
 pdfTeX warning: pdflatex (file ./figures/Rossby.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >] (./sections/modeling.tex
-<figures/Kippenhan_clamped.pdf, id=399, 1034.60086pt x 450.02605pt>
+<figures/Kippenhan_clamped.pdf, id=401, 1034.60086pt x 450.02605pt>
 File: figures/Kippenhan_clamped.pdf Graphic file (type pdf)
 <use figures/Kippenhan_clamped.pdf>
 Package pdftex.def Info: figures/Kippenhan_clamped.pdf  used on input line 48.
 (pdftex.def)             Requested size: 461.80255pt x 200.86867pt.
-<figures/simpleBEvolution.pdf, id=402, 628.67159pt x 446.88333pt>
+<figures/simpleBEvolution.pdf, id=404, 628.67159pt x 446.88333pt>
 File: figures/simpleBEvolution.pdf Graphic file (type pdf)
 <use figures/simpleBEvolution.pdf>
 Package pdftex.def Info: figures/simpleBEvolution.pdf  used on input line 69.
 (pdftex.def)             Requested size: 230.90128pt x 164.13048pt.
  [7]
-<figures/SpreadModel.pdf, id=420, 631.1627pt x 437.70929pt>
+<figures/SpreadModel.pdf, id=422, 631.1627pt x 437.70929pt>
 File: figures/SpreadModel.pdf Graphic file (type pdf)
 <use figures/SpreadModel.pdf>
 Package pdftex.def Info: figures/SpreadModel.pdf  used on input line 94.
@@ -785,10 +778,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on JaoGapCaIIHKRelation.pdf (10 pages, 3370968 bytes).
+Output written on JaoGapCaIIHKRelation.pdf (10 pages, 3370787 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 576 compressed objects within 6 object streams
+ 646 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
  91 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

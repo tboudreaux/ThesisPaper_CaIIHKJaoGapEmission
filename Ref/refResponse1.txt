@@ -1,7 +1,7 @@
 # Referee Response
 
 We would like to thank the referee for their careful reading and critique of
-this work. Below we address each point in the referee response including
+this work. Below, we address each point in the referee response including
 describing any changes made to the manuscript. All changes have been placed in
 bold face.
 
