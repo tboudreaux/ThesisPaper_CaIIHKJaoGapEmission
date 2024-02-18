@@ -62,6 +62,11 @@ Boudreaux, T. 2022, tboudreaux/pytopsscrape: pyTOPSScrape v1.0, v1.0,  Zenodo,
 Chandra, R.~V., \& Varanasi, B.~S. 2015, Python requests essentials (Packt
   Publishing Ltd)
 
+\bibitem[{{Cretignier} {et~al.}(2024){Cretignier}, {Pietrow}, \&
+  {Aigrain}}]{Cretignier2024}
+{Cretignier}, M., {Pietrow}, A.~G.~M., \& {Aigrain}, S. 2024, \mnras, 527,
+  2940, \dodoi{10.1093/mnras/stad3292}
+
 \bibitem[{{Curtis} {et~al.}(2020){Curtis}, {Ag{\"u}eros}, {Matt}, {Covey},
   {Douglas}, {Angus}, {Saar}, {Cody}, {Vanderburg}, {Law}, {Kraus}, {Latham},
   {Baranec}, {Riddle}, {Ziegler}, {Lund}, {Torres}, {Meibom}, {Aguirre}, \&
@@ -204,6 +209,9 @@ Feinstein, A.~D., Montet, B.~T., Ansdell, M., {et~al.} 2020{\natexlab{b}},
   {Montes}, {Revilla}, \& {Skrzypinski}}]{Perdelwitz2021}
 {Perdelwitz}, V., {Mittag}, M., {Tal-Or}, L., {et~al.} 2021, VizieR Online Data
   Catalog, J/A+A/652/A116, \dodoi{10.26093/cds/vizier.36520116}
+
+\bibitem[{{Rauscher} \& {Marcy}(2006)}]{Rauscher2006}
+{Rauscher}, E., \& {Marcy}, G.~W. 2006, \pasp, 118, 617, \dodoi{10.1086/503021}
 
 \bibitem[{Richardson(2007)}]{richardson2007beautiful}
 Richardson, L. 2007, April

@@ -1,37 +1,76 @@
-Referee Report
-Reviewer:
-The manuscript presents an investigation into the origins of the Jao gap using archival Ca II H&K data.
-The origin of this gap is to date unknown, but suspected to be related to magnetic activity, and hence studies such as this one are important.
-I recommend publication of this paper after an important issue is addressed, which I decided to call a "minor" revision simply due to the fact that it is purely a matter of presentation, as explained below.
+## Referee Report
 
-When reading section 2. in its current form, the reader quickly stumbles over multiple points which accumulate to serious doubt about the rest of the paper.
-However, each one of these issues is then resolved in later on, which is why I ask for some changes to be made in order to avoid misunderstandings and thus increase the impact of the publication.
-Here is a list of the issues to be fixed with regard to this point:
+The manuscript presents an investigation into the origins of the Jao gap using
+archival Ca II H&K data. The origin of this gap is to date unknown, but
+suspected to be related to magnetic activity, and hence studies such as this
+one are important. I recommend publication of this paper after an important
+issue is addressed, which I decided to call a "minor" revision simply due to
+the fact that it is purely a matter of presentation, as explained below.
 
-1. Lines 144-: "this is balanced by an apparent stronger correlation between..."
-This claim seems to be unfounded. When looking at the Jao (2023) paper on Halpha emission, the results seem much more clear than those presented here. Please clarify, or remove this sentence.
+When reading section 2. in its current form, the reader quickly stumbles over
+multiple points which accumulate to serious doubt about the rest of the paper.
+However, each one of these issues is then resolved in later on, which is why I
+ask for some changes to be made in order to avoid misunderstandings and thus
+increase the impact of the publication. Here is a list of the issues to be
+fixed with regard to this point:
 
-2. Lines 148-149: "There is a visual discontinuity..."
-This discontinuity only becomes clear in Fig. 2. See also the following point:
+1. Lines 144-: "this is balanced by an apparent stronger correlation
+between..." This claim seems to be unfounded. When looking at the Jao (2023)
+paper on Halpha emission, the results seem much more clear than those presented
+here. Please clarify, or remove this sentence.
 
-3. Fig. 1&2 are not very clear. First of all, please combine them into a single figure with a shared x-axis, similar to fig. 6. Then, the dashed line in fig. 2 seems to imply that the Jao gap is at M_G=11, whereas the discovery paper (Jao et al. 2018) places it closer to M_G=10. All of this is discussed later on, but the authors should avoid this confusion by updating the figure to include a shaded region that highlights the actual position of the gap.
-Also, please use M_G instead of G Mag, since it needs to be clear that this is the absolute magnitude.
+2. Lines 148-149: "There is a visual discontinuity..." This discontinuity only
+becomes clear in Fig. 2. See also the following point:
+
+3. Fig. 1&2 are not very clear. First of all, please combine them into a single
+figure with a shared x-axis, similar to fig. 6. Then, the dashed line in fig. 2
+seems to imply that the Jao gap is at M_G=11, whereas the discovery paper (Jao
+et al. 2018) places it closer to M_G=10. All of this is discussed later on, but
+the authors should avoid this confusion by updating the figure to include a
+shaded region that highlights the actual position of the gap. Also, please use
+M_G instead of G Mag, since it needs to be clear that this is the absolute
+magnitude.
 
 4. Lines 175&198: "just below" > "below". Same reason as point 3.
 
-5. While I was happy to see that magnetic saturation is accounted for, the authors do not discuss the influence of activity cycles. Fig. 8 of Perdelwitz et al. (2021) shows a sample of M dwarfs with significant modulation in R'_HK. Since the targets from Boudreaux et al. (2022) were observed merely four times on average, R'_HK of individual stars could be biased because of the time of measurement with respect to possible activity cycles. This is easily resolved by giving a typical magnitude of activity cycles of M dwarfs (Fig. 8 in the aforementioned paper shows delta(log(R'_HK)))~<0.2, but maybe the authors find a better citation). Additionally, the low scatter of the rotation-activity relation in Boudreaux et al. (2022) justifies that, on the level of variability addressed in this publication, cycles are not relevant. Please include a few sentences to clarify this.
+5. While I was happy to see that magnetic saturation is accounted for, the
+authors do not discuss the influence of activity cycles. Fig. 8 of Perdelwitz
+et al. (2021) shows a sample of M dwarfs with significant modulation in R'_HK.
+Since the targets from Boudreaux et al. (2022) were observed merely four times
+on average, R'_HK of individual stars could be biased because of the time of
+measurement with respect to possible activity cycles. This is easily resolved
+by giving a typical magnitude of activity cycles of M dwarfs (Fig. 8 in the
+aforementioned paper shows delta(log(R'_HK)))~<0.2, but maybe the authors find
+a better citation). Additionally, the low scatter of the rotation-activity
+relation in Boudreaux et al. (2022) justifies that, on the level of variability
+addressed in this publication, cycles are not relevant. Please include a few
+sentences to clarify this.
 
 
+## Additionally, there are some minor issues I would like the authors to look at:
 
+-Beginning of Sec.2: Perdelwitz et al. (2021) and Boudreaux et al. (2022) use
+two different methods for extracting Ca II H&K fluxes. The authors should
+either include a plot showing the comparison of the results for the overlap in
+the samples, or (if that overlap is two small) include a sentence about the
+expected bias, e.g. based on fig. 6 of Perdelwitz (2021).
 
-Additionally, there are some minor issues I would like the authors to look at:
+-Fig. 4&6: Please include the same shaded region highlighting the Jao gap I
+asked for in Fig. 1&2.
 
--Beginning of Sec.2: Perdelwitz et al. (2021) and Boudreaux et al. (2022) use two different methods for extracting Ca II H&K fluxes. The authors should either include a plot showing the comparison of the results for the overlap in the samples, or (if that overlap is two small) include a sentence about the expected bias, e.g. based on fig. 6 of Perdelwitz (2021).
+-Lines 245-: Perdelwitz et al. do not publish rotation periods, but the
+Carmencita catalog from the same collaboration does: Diez Alonso+ (2019,
+2019A&A...621A.126D). Please check whether these values could increase the
+sample. Especially for slow rotators, the data used in this publication to
+derive rotation periods (ASAS, SWASP, K2,...) may be better suited due to the
+longer time scales of available data.
 
--Fig. 4&6: Please include the same shaded region highlighting the Jao gap I asked for in Fig. 1&2.
+-Line 352: "Kissing instabilities"; The term is used throughout the paper, but
+I could not find a reference or clear definiton.
 
--Lines 245-: Perdelwitz et al. do not publish rotation periods, but the Carmencita catalog from the same collaboration does: Diez Alonso+ (2019, 2019A&A...621A.126D). Please check whether these values could increase the sample. Especially for slow rotators, the data used in this publication to derive rotation periods (ASAS, SWASP, K2,...) may be better suited due to the longer time scales of available data.
-
--Line 352: "Kissing instabilities"; The term is used throughout the paper, but I could not find a reference or clear definiton.
-
--Section 3: I like this section, since it shows that even a simple toy model can reproduce the behaviour in activity variability. My first instinct was to ask the authors to include the results from the measurements (fig. 2 ) in fig. 10, but due to the scale, this does not work. However, I ask that the authors think about including this model approach in the abstract, as it highlights a clear path forward in investigating the Jao gap.
+-Section 3: I like this section, since it shows that even a simple toy model
+can reproduce the behaviour in activity variability. My first instinct was to
+ask the authors to include the results from the measurements (fig. 2 ) in fig.
+10, but due to the scale, this does not work. However, I ask that the authors
+think about including this model approach in the abstract, as it highlights a
+clear path forward in investigating the Jao gap.

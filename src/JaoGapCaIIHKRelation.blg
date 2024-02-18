@@ -8,45 +8,45 @@ Warning--entry type for "Boudreaux22" isn't style-file defined
 Warning--entry type for "Angus2023" isn't style-file defined
 --line 3674 of file ms.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 53 entries,
+You've used 55 entries,
             3168 wiz_defined-function locations,
-            1070 strings with 20487 characters,
-and the built_in function-call counts, 25924 in all, are:
-= -- 2041
-> -- 2197
-< -- 21
-+ -- 738
-- -- 797
-* -- 2440
-:= -- 4858
-add.period$ -- 54
-call.type$ -- 53
-change.case$ -- 316
-chr.to.int$ -- 52
-cite$ -- 53
-duplicate$ -- 878
-empty$ -- 1452
-format.name$ -- 864
-if$ -- 5133
+            1087 strings with 20906 characters,
+and the built_in function-call counts, 26770 in all, are:
+= -- 2118
+> -- 2249
+< -- 22
++ -- 755
+- -- 815
+* -- 2512
+:= -- 5008
+add.period$ -- 56
+call.type$ -- 55
+change.case$ -- 327
+chr.to.int$ -- 54
+cite$ -- 55
+duplicate$ -- 912
+empty$ -- 1507
+format.name$ -- 887
+if$ -- 5308
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 49
-newline$ -- 168
-num.names$ -- 212
-pop$ -- 336
+missing$ -- 51
+newline$ -- 174
+num.names$ -- 220
+pop$ -- 349
 preamble$ -- 1
-purify$ -- 316
+purify$ -- 327
 quote$ -- 0
-skip$ -- 746
+skip$ -- 774
 stack$ -- 0
-substring$ -- 894
+substring$ -- 931
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 474
+type$ -- 492
 warning$ -- 0
-while$ -- 194
+while$ -- 202
 width$ -- 0
-write$ -- 583
+write$ -- 605
 (There were 2 warnings)

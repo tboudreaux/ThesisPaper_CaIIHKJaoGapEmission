@@ -1,0 +1,124 @@
+# Referee Response
+
+We would like to thank the referee for their careful reading and critique of
+this work. Below we address each point in the referee response including
+describing any changes made to the manuscript. All changes have been placed in
+bold face.
+
+## Point 1 (Strong Correlation)
+  Ref : Lines 144-: "this is balanced by an apparent stronger correlation
+  between..." This claim seems to be unfounded. When looking at the Jao (2023)
+  paper on Halpha emission, the results seem much more clear than those presented
+  here. Please clarify, or remove this sentence.
+
+  Response : This sentence has been removed. 
+
+## Point 2 (visual discontinuity)
+  Ref : Lines 148-149: "There is a visual discontinuity..." This discontinuity only
+  becomes clear in Fig. 2. See also the following point:
+
+  Response : This has been addressed by merging figures 1 and 2 into a single figure
+  (currently figure 1) with a shared x axis. Further a shaded region has been added to
+  the R'HK vs M_G plot in order to more clearly show the change in the spread over
+  the domain.
+
+## Point 3 (Location of Gap)
+  Ref : Fig. 1&2 are not very clear. First of all, please combine them into a single
+  figure with a shared x-axis, similar to fig. 6. Then, the dashed line in fig. 2
+  seems to imply that the Jao gap is at M_G=11, whereas the discovery paper (Jao
+  et al. 2018) places it closer to M_G=10. All of this is discussed later on, but
+  the authors should avoid this confusion by updating the figure to include a
+  shaded region that highlights the actual position of the gap. Also, please use
+  M_G instead of G Mag, since it needs to be clear that this is the absolute
+  magnitude.
+
+  Response : Figure combined (see response to point 2). The actual position of the
+  gap has been added as a shaded region as the referee suggests. Further limited discussion
+  of the difference between where the discontinuity is and the discovery of the gap
+  has been added (though primarily this addresses that that difference exists and then
+  points the reader to latter sections where discussion of this difference is more
+  flushed out)
+
+## Point 4 (just below)
+  Ref : Lines 175&198: "just below" > "below". Same reason as point 3.
+
+  Response : Wording changed to "below" from "just below"
+
+## Point 5 (activity cycles)
+  Ref : While I was happy to see that magnetic saturation is accounted for, the
+  authors do not discuss the influence of activity cycles. Fig. 8 of Perdelwitz
+  et al. (2021) shows a sample of M dwarfs with significant modulation in R'_HK.
+  Since the targets from Boudreaux et al. (2022) were observed merely four times
+  on average, R'_HK of individual stars could be biased because of the time of
+  measurement with respect to possible activity cycles. This is easily resolved
+  by giving a typical magnitude of activity cycles of M dwarfs (Fig. 8 in the
+  aforementioned paper shows delta(log(R'_HK)))~<0.2, but maybe the authors find
+  a better citation). Additionally, the low scatter of the rotation-activity
+  relation in Boudreaux et al. (2022) justifies that, on the level of variability
+  addressed in this publication, cycles are not relevant. Please include a few
+  sentences to clarify this.
+
+  Response : We thank the referee for bringing this point to our attention. We
+  have added sentences discussing the relative importance of activity cycles vs. 
+  the level of variability which we see here.
+
+
+# Additional Minor Comments
+
+
+## Point A
+  Ref : Beginning of Sec.2: Perdelwitz et al. (2021) and Boudreaux et al. (2022) use
+  two different methods for extracting Ca II H&K fluxes. The authors should
+  either include a plot showing the comparison of the results for the overlap in
+  the samples, or (if that overlap is two small) include a sentence about the
+  expected bias, e.g. based on fig. 6 of Perdelwitz (2021).
+
+  Response : The overlap is only 5 source so a plot is not included. However,
+  we find the mean percent difference between these 5 sources and include that
+  in a sentence in manuscript. There is an approximately 1.5 percent difference
+  on average between the P2021 R'HK measurements and the B2022 measurements.
+
+## Point B
+  Ref : Fig. 4&6: Please include the same shaded region highlighting the Jao gap I
+  asked for in Fig. 1&2.
+
+  Response :  All figures with show something as a function of Mg have been updated
+  to include a hatched region showing the location of the gap.
+
+## Point C
+  Ref : Lines 245-: Perdelwitz et al. do not publish rotation periods, but the
+  Carmencita catalog from the same collaboration does: Diez Alonso+ (2019,
+  2019A&A...621A.126D). Please check whether these values could increase the
+  sample. Especially for slow rotators, the data used in this publication to
+  derive rotation periods (ASAS, SWASP, K2,...) may be better suited due to the
+  longer time scales of available data.
+
+  Response : These rotational periods were already included in the sample and
+  they make up the majority of rotational periods which we have access to for
+  stars from the P2021 sample. In the machine readable version of table which
+  is included as a supplement to this work DA19 in the r_prot column referees to
+  periods from Diez Alonso+ 2019.
+
+## Point D
+  Ref : Line 352: "Kissing instabilities"; The term is used throughout the paper, but
+  I could not find a reference or clear definition.
+
+  Response : Defined Kissing instabilities in the introduction to the paper.
+
+## Point E
+  Ref : Section 3: I like this section, since it shows that even a simple toy model
+  can reproduce the behaviour in activity variability. My first instinct was to
+  ask the authors to include the results from the measurements (fig. 2 ) in fig.
+  10, but due to the scale, this does not work. However, I ask that the authors
+  think about including this model approach in the abstract, as it highlights a
+  clear path forward in investigating the Jao gap.
+
+  Response : Added a sentence to the abstract highlighting this toy model.
+
+
+# Misc Changes
+
+  Minor spelling and grammatical changes / corrections were made throughout to
+  correct typos, these have not been placed in boldface. Further a note has
+  been added to the acknowledgments thanking the referee for their careful
+  reading and critique of this work.
